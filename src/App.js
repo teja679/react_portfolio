@@ -29,10 +29,9 @@ function App() {
         <DotGroup
           selectedPage={selectedPage}
           setSelectedPage={setSelectedPage} />
-      </div>
-      <div>
         <Landing setSelectedPage={setSelectedPage} />
       </div>
+  
     </div>
   );
 }
